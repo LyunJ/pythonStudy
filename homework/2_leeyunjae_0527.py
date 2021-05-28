@@ -22,6 +22,7 @@ def sum(file, path):
             continue
         elif line == '':
             break
+
         num1, num2 = map(int, line.split())
 
         wf.write(f'{num1}+{num2}={num1 + num2:.1f}\n')
